@@ -1,0 +1,12 @@
+#include <iostream>
+#include <vector>
+
+bool isEmpty(const std::vector<int>& arr) {
+    return arr.empty();
+}
+
+int main() {
+    std::vector<int> numbers;
+    std::cout << std::boolalpha << isEmpty(numbers) << std::endl;
+    return 0;
+}
